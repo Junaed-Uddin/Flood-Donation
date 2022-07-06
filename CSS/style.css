@@ -1,37 +1,92 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.intro-section{
-    background-image: url('./../images/donation.jpg');
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size:100% 100%;
-    height: 94vh;
+.intro-section {
+  background-image: url("./../images/donation.jpg");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100% 100%;
+  height: 94vh;
 }
 
-.donation-title{
-    font-size: 56px;
-    font-weight: 700;
-    padding-top: 13%;
-    color: white;
-    margin: 0;
+.donation-title {
+  font-size: 56px;
+  font-weight: 700;
+  padding-top: 13%;
+  color: white;
+  margin: 0;
 }
 
-.intro-section p{
-    font-size: 22px;
-    color: white;
-    margin-bottom: 50px;
+.intro-section p {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 50px;
 }
 
-.intro-btn{
-    text-decoration: none;
-    padding: 15px 25px;
-    background-image: linear-gradient(red, rgb(151, 97, 61));
-    color: white;
-    border-radius: 6px;
-    font-weight: 500;
-    font-size: 18px;
+.btn-field {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(red, rgb(151, 97, 61));
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+/* donation amount  */
+.amount-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#donate-title {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.amount-section p {
+  color: rgb(85, 81, 81);
+}
+
+.donate-money-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.donate-money {
+  margin-top: 1.8%;
+  width: 8%;
+  margin-left: 1%;
+  background-color: #f5f3f3bb;
+  padding: 30px 0px 30px 0px;
+  color: #707070;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+#money200tk {
+  color: #ff5959;
+  background-color: #ffeeee;
+  border: 3px solid #ff5959;
+}
+
+#amount-field {
+  margin-top: 5rem;
+  width: 660px;
+  margin-left: 1rem;
+  border-width: 0 0 3px;
+  border-color: #b3b3b3;
+  color: rgba(0, 0, 0, 0.727);
+  text-align: center;
+  font-size: 20px;
+  outline-width: 0;
+  padding-bottom: 0.8rem;
 }
