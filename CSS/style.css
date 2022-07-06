@@ -13,37 +13,40 @@ body {
 }
 
 .donation-title {
-  font-size: 56px;
-  font-weight: 700;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 60px;
+  line-height: 4.5rem;
+  font-weight: bolder;
   padding-top: 13%;
   color: white;
   margin: 0;
 }
 
 .intro-section p {
-  font-size: 22px;
+  font-size: 21px;
   color: white;
   margin-bottom: 50px;
 }
 
 .btn-field {
   text-decoration: none;
-  padding: 10px 20px;
-  background-image: linear-gradient(red, rgb(151, 97, 61));
+  padding: 15px 20px;
+  background-color: #ff5959;
   color: white;
   border-radius: 6px;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /* donation amount  */
 .amount-section {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 10%;
 }
 
 #donate-title {
-  font-size: 38px;
+  font-size: 40px;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -82,11 +85,246 @@ body {
   margin-top: 5rem;
   width: 660px;
   margin-left: 1rem;
-  border-width: 0 0 3px;
+  border-width: 0 0 1px;
   border-color: #b3b3b3;
-  color: rgba(0, 0, 0, 0.727);
+  color: rgba(0, 0, 0, 0.711);
   text-align: center;
   font-size: 20px;
   outline-width: 0;
   padding-bottom: 0.8rem;
+  margin-bottom: 8px;
+}
+
+/* donate plan  */
+.donate-plan {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.donate-plan h1 {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.donate-plan p {
+  color: rgba(0, 0, 0, 0.56);
+}
+
+.subsection-width {
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.project-plan {
+  background-color: #f5f3f3bb;
+  width: 25%;
+  margin-top: 2rem;
+  padding: 60px 25px 20px;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#food-area {
+  margin-left: 10.9%;
+  background-color: #edf5f6;
+}
+
+#shelter-area {
+  margin-left: 1.6%;
+  background-color: #ffeeee;
+}
+
+#education-area {
+  margin-left: 1.6%;
+  margin-right: 10.9%;
+  background-color: #fff4d6;
+}
+
+/* post  */
+/* post section-1 */
+.post {
+  width: 50%;
+}
+
+.post-text-1 {
+  width: 39%;
+  margin-left: 11%;
+  margin-top: 7rem;
+}
+
+.post-text-1 h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.post-image-1 {
+  margin-top: 5rem;
+  margin-left: 6%;
+  margin-right: 1%;
+}
+
+.post-image-1 img {
+  width: 78%;
+}
+
+/* post section-2  */
+.post-image-2 {
+  margin-left: 11%;
+}
+
+.post-image-2 img {
+  width: 85%;
+}
+
+.post-text-2 {
+  width: 43%;
+  margin-top: 2rem;
+  margin-right: 11%;
+}
+
+.post-text-2 h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+/* our members */
+.section-members {
+  text-align: center;
+  margin-top: 8rem;
+  line-height: 14px;
+  background-color: #f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.section-members p {
+  font-size: 17px;
+}
+
+.section-members h1 {
+  font-size: 40px;
+}
+
+.member-images {
+  width: 75%;
+  margin-top: 3rem;
+  box-shadow: 5px 5px 10px rgba(136, 136, 136, 0.418);
+}
+
+.member-images img {
+  width: 100%;
+  height: auto;
+}
+
+#member-image-1 {
+  margin-left: 10.5%;
+}
+
+#member-image-2 {
+  margin-left: 2%;
+}
+
+#member-image-3 {
+  margin-left: 2%;
+  margin-right: 10.5%;
+}
+
+.member-images h3 {
+  padding-top: 0.6rem;
+  color: #3bcf93;
+  font-size: 22px;
+}
+
+.member-images p {
+  font-size: 15px;
+  color: #9699a0;
+}
+
+.social-links {
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.fa-brands {
+  margin-top: 1.5rem;
+  width: 18%;
+  font-size: 20px;
+}
+
+#view-members {
+  text-decoration: none;
+  padding: 15px;
+  background-color: #3bcf93;
+  color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* my updates  */
+.my-updates {
+  margin-top: 10%;
+  margin-bottom: 3px;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.my-updates h1 {
+  font-size: 40px;
+}
+
+.my-updates p {
+  font-size: 18px;
+  color: rgba(34, 33, 33, 0.653);
+}
+
+.subscribe-section {
+  background-color: #fff4d6;
+  padding: 80px 100px;
+  margin-top: 4%;
+}
+
+#email-field {
+  width: 250px;
+  padding: 15px;
+  border: none;
+  background-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.711);
+  font-size: 17px;
+  border-radius: 5px 0 0 5px;
+}
+
+#subscribe-btn {
+  text-decoration: none;
+  background-color: red;
+  padding: 14px 30px;
+  color: white;
+  border-radius: 0px 5px 5px 0;
+  margin-left: -5px;
+}
+
+/* footer  */
+footer {
+  background-color: black;
+  margin-top: 5%;
+  text-align: center;
+  padding: 30px;
+}
+
+footer h2 {
+  color: #ff5959;
+  font-family: "Roboto Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+footer p {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.774);
 }
