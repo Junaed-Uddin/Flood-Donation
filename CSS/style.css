@@ -201,6 +201,12 @@ body {
   font-size: 17px;
 }
 
+.member-text{
+  font-size: 17px;
+  line-height: 1.7rem;
+  margin-top: 1%;
+}
+
 .section-members h1 {
   font-size: 40px;
 }
